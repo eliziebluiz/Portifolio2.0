@@ -6,6 +6,7 @@ import Link from "next/link";
 
 const name = "Elizieb Luiz";
 export const siteTitle = "Elizieb Luiz";
+const user = "eliziebluiz";
 
 export default function Layout({ children, home }) {
   return (
@@ -36,7 +37,7 @@ export default function Layout({ children, home }) {
               width={144}
               alt={name}
             />
-            <h1 className={utilStyles.heading2Xl}>{name}</h1>
+            {/* <h1 className={utilStyles.heading2Xl}>{name}</h1> */}
           </>
         ) : (
           <>
