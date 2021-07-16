@@ -25,14 +25,39 @@
   line-height: 1.5;
 }
 
+.headingMd h3 {
+  color: #50fa7b;
+}
+
+.headingMd h2,
+.headingMdTecs h2 {
+  font-size: 1.5rem;
+  will-change: transform;
+  transition: transform 450ms;
+}
+
+.headingMd h2:hover,
+.headingMdTecs h2:hover {
+  transition: transform 125ms;
+  transform: translateY(-10px);
+}
+
+.headingMdTecs p {
+  color: #ff79c6;
+}
+
 .headingMdM {
   font-size: 1.5rem;
   line-height: 1.5;
   text-align: center;
 }
 
-.headingMd h3 {
-  color: #985eff;
+.headingMdM p {
+  color: #50fa7b;
+}
+
+.headingMd {
+  color: #8be9fd;
 }
 
 .borderCircle {
@@ -59,4 +84,26 @@
 
 .lightText {
   color: #666;
+}
+
+.animation {
+  display: flex;
+  align-items: center;
+}
+
+.animationBox {
+  display: grid;
+}
+
+.animationBox a {
+  color: #ffb86c;
+  text-decoration: none;
+  margin: 5px 30px;
+}
+
+.animationBox p {
+  color: #50fa7b;
+  font-weight: 800;
+  text-decoration: none;
+  margin: 5px 30px;
 }

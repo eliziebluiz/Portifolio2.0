@@ -14,7 +14,7 @@ body {
 }
 
 a {
-  color: #985eff;
+  color: #8be9fd;
   text-decoration: none;
 }
 
@@ -50,5 +50,5 @@ p {
   border-radius: 20px;
 } /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #985eff;
+  background: #8be9fd;
 }

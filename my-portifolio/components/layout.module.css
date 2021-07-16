@@ -6,6 +6,10 @@
   max-width: 36rem;
   padding: 0 1rem;
   margin: 3rem auto 6rem;
+  background-color: #44475a;
+  padding: 50px 40px;
+  border-radius: 20px;
+  margin-top: auto 0px;
 }
 
 .header {
