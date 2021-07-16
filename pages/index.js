@@ -32,6 +32,9 @@ export default function Home({ allPostsData }) {
           <h3>{date?.bio || "Ideas developer"}</h3>
           <h2 className={utilStyles.headingLg}> 🥷 About Me</h2>
           <p className={utilStyles.headingMd}>
+            ~ Front end developer at Acelerabit.
+          </p>
+          <p className={utilStyles.headingMd}>
             ~ UFERSA, Pau dos Ferros: 2017/06 - 2021/01 Bachelor of Information
             Technology
           </p>
@@ -39,9 +42,7 @@ export default function Home({ allPostsData }) {
             ~ Studying Software Engineering at Federal Rural University of
             Semiarid.
           </p>
-          <p className={utilStyles.headingMd}>
-            ~ Front end developer at Acelerabit.
-          </p>
+
           <p className={utilStyles.headingMd}>~ Learning more about NextJS. </p>
         </section>
         <section
